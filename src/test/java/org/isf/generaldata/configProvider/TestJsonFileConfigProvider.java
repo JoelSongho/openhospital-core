@@ -47,6 +47,7 @@ public class TestJsonFileConfigProvider {
 
 	@Test
 	void testJsonFileConfigProviderBadUrl() throws Exception {
+
 		GeneralData.initialize();
 		GeneralData.PARAMSURL = "https://somebadaddress.xxx";
 
